@@ -3,6 +3,7 @@
 pkill aegis
 systemctl stop aegis
 systemctl disable aegis
+pkill aliyun-service
 
 d='/tmp/uninstall_aliyun-service/'
 mkdir $d
