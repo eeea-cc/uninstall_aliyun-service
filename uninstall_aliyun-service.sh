@@ -14,7 +14,7 @@ rm -rf uninstall.sh
 
 curl -o uninstall.sh "http://update.aegis.aliyun.com/download/quartz_uninstall.sh"
 bash uninstall.sh
-rm -rf uninstall.share
+rm -rf uninstall.sh
 
 rm -rf /etc/systemd/system/aegis.service
 rm -rf /etc/rc2.d/S80aegis
